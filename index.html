@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b0b0b">
+  <meta name="description" content="GHEZLAM Digital Publishing House — Ideas That Become Worlds. Discover thoughtful digital books across genres and disciplines.">
+  <title>GHEZLAM — Digital Publishing House</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="GHEZLAM home">
+      <span class="brand-mark">G</span>
+      <span class="brand-name">GHEZLAM<small>DIGITAL PUBLISHING HOUSE</small></span>
+    </a>
+    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav class="nav">
+      <a href="#home">Home</a><a href="#catalog">Catalog</a><a href="#about">About</a><a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <p class="eyebrow">INDEPENDENT IDEAS. ENDLESS WORLDS.</p>
+        <h1>Ideas That<br><em>Become Worlds.</em></h1>
+        <p class="hero-copy">Thoughtfully created digital books for curious minds, ambitious thinkers, and lifelong learners.</p>
+        <a class="button button-gold" href="#catalog">Explore the catalog <span>↗</span></a>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="book-shape"><span>G</span><small>GHEZLAM<br>EDITION</small></div>
+        <div class="gold-dot"></div>
+      </div>
+      <div class="hero-foot"><span>READ · THINK · IMAGINE</span><span>EST. DIGITAL · GLOBAL</span></div>
+    </section>
+
+    <section class="section catalog-section" id="catalog">
+      <div class="section-heading">
+        <div><p class="eyebrow">THE READING ROOM</p><h2>Explore our <em>worlds.</em></h2></div>
+        <p class="section-intro">A growing collection of original digital publications. New titles will be added as they are carefully developed and released.</p>
+      </div>
+      <div class="catalog-tools">
+        <span class="catalog-count" id="catalog-count">A growing collection</span>
+        <label class="search-box"><span>⌕</span><input id="book-search" type="search" placeholder="Search publications…" aria-label="Search publications"></label>
+      </div>
+      <div class="book-grid" id="book-grid">
+        <article class="empty-state"><div class="empty-symbol">✳</div><h3>The next chapter starts here.</h3><p>Our catalog is being curated. Published titles and verified store links will appear here soon.</p></article>
+      </div>
+    </section>
+
+    <section class="manifesto" id="about">
+      <p class="eyebrow">OUR PHILOSOPHY</p>
+      <h2>Knowledge opens doors.<br><em>Imagination builds them.</em></h2>
+      <p>GHEZLAM is an independent digital publishing house devoted to making useful, engaging, and original ideas accessible to readers everywhere. We believe every good book can open a new perspective.</p>
+      <div class="manifesto-line"><span>CURIOUS BY NATURE</span><span>GLOBAL BY DESIGN</span><span>BUILT FOR READERS</span></div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div><p class="eyebrow">LET'S CONNECT</p><h2>Every great idea<br>begins with a <em>conversation.</em></h2></div>
+      <div class="contact-card"><p>For reader feedback, publishing inquiries, and collaborations, reach out by email.</p><a class="email-link" href="mailto:hello@ghezlam.com">Contact the publisher ↗</a><small>Replace this address with your preferred public contact email before launch.</small></div>
+    </section>
+  </main>
+
+  <footer class="footer"><a class="footer-brand" href="#home">GHEZLAM</a><span>Ideas That Become Worlds.</span><span>© <span id="year"></span> GHEZLAM Digital Publishing House</span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
